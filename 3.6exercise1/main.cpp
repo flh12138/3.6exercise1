@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+
 	cv::Mat src_color = imread("E:\\PIC\\1.png");
     std::vector	<cv::Mat> channels;
 	cv::split(src_color, channels);
